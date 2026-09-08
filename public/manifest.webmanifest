@@ -1,7 +1,9 @@
 {
-  "name": "arkicentral",
-  "short_name": "arkicentral",
+  "name": "ArkiCentral",
+  "short_name": "ArkiCentral",
   "display": "standalone",
+  "theme_color": "#1273eb",
+  "background_color": "#f4f8fc",
   "scope": "./",
   "start_url": "./",
   "icons": [

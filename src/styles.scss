@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles for ArkiCentral */
+
+:root {
+  --blue: #1273eb;
+  --blue-dark: #0d5fc6;
+  --blue-tint: #eaf2fd;
+  --blue-border: #bcd7f3;
+  --ink: #1d2a3b;
+  --ink-soft: #5b6b80;
+  --line: #e4eaf1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #f4f8fc;
+  color: var(--ink);
+  line-height: 1.5;
+}
